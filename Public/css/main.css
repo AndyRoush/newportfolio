@@ -1,0 +1,25 @@
+/* Parallax container height */
+.parallax-container {
+    height: 750px;
+  }
+
+.space {
+    height: 600px;
+    background-color: burlywood;
+    border: 3px solid royalblue
+}
+
+/* // Class for when element is above threshold */
+.pin-top {
+  position: relative;
+}
+
+/* // Class for when element is below threshold */
+.pin-bottom {
+  position: relative;
+}
+
+/* // Class for when element is pinned */
+.pinned {
+  position: fixed !important;
+}
