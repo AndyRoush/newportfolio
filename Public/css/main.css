@@ -9,6 +9,7 @@
     border: 3px solid royalblue
 }
 
+/* Navbar pushpin classes */
 /* // Class for when element is above threshold */
 .pin-top {
   position: relative;
@@ -22,4 +23,10 @@
 /* // Class for when element is pinned */
 .pinned {
   position: fixed !important;
+}
+
+/* header content */
+.header-content {
+  margin-top: 15%;
+  margin-bottom:30%;
 }
