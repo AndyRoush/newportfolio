@@ -1,15 +1,26 @@
 nav {
   background-color: white;
+  z-index: 1;
 }
 nav .brand-logo,
 nav ul a {
   color: black;
 }
 
+nav .brand-logo {
+  margin-left: 20px;
+}
+
 /* Parallax container height */
 .parallax-container {
     height: 750px;
   }
+
+#portfolio-button {
+  background-color: #81d4fa00;
+  border: 2px solid black;
+  margin-top: 2rem;
+}
 
 .space {
     height: 600px;
@@ -37,10 +48,11 @@ nav ul a {
 .header-content {
   margin-top: 15%;
   margin-bottom:30%;
+  color: white;
 }
 
 .about-me {
-  margin-top: 40px;
+  margin-top: 5%;
   height: 750px;
 }
 
@@ -49,3 +61,19 @@ nav ul a {
   margin-right: 20%;
 }
 
+.skills-logos {
+  height: 70px;
+  width: 68px;
+}
+
+.tech-icons {
+  margin-top: 8%;
+}
+
+.portfolio-content {
+  margin-top: 165px;
+}
+
+.materialboxed {
+  float:left;
+}
