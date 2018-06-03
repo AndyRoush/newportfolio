@@ -1,6 +1,6 @@
 nav {
   background-color: white;
-  z-index: 1;
+  z-index: 4;
 }
 nav .brand-logo,
 nav ul a {
@@ -18,7 +18,7 @@ nav .brand-logo {
 
 #portfolio-button {
   background-color: #81d4fa00;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   margin-top: 2rem;
 }
 
@@ -76,4 +76,12 @@ nav .brand-logo {
 
 .materialboxed {
   float:left;
+}
+
+.swpier {
+  height: 800px;
+}
+
+.test-test {
+  /* margin-top: 33px; */
 }
