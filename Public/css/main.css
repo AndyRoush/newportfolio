@@ -1,3 +1,5 @@
+
+
 nav {
   background-color: white;
   z-index: 4;
@@ -13,7 +15,7 @@ nav .brand-logo {
 
 /* Parallax container height */
 .parallax-container {
-    height: 750px;
+    height: 850px;
   }
 
 #portfolio-button {
@@ -22,10 +24,14 @@ nav .brand-logo {
   margin-top: 2rem;
 }
 
-.space {
-    height: 600px;
-    background-color: burlywood;
-    border: 3px solid royalblue
+.additional-services {
+  height: 600px;
+  background: linear-gradient(-90deg,  #4eefed, #5c33fa);
+  clip-path: polygon(0 0, 2000px 0, 1960px 20%, 0 99%);
+}
+
+.add-services-row {
+  z-index: 8;
 }
 
 /* Navbar pushpin classes */
@@ -84,4 +90,48 @@ nav .brand-logo {
 
 .test-test {
   /* margin-top: 33px; */
+}
+
+/* .pic-blur:hover {
+  filter: blur(2px);
+} */
+
+
+.cont {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 139, 186, 0.705);
+}
+
+.cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }

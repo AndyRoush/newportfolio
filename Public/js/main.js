@@ -5,7 +5,7 @@ $(document).ready(function() {
   $('.parallax').parallax();
 
   $('.pushpin').pushpin({
-    top: 750,
+    top: 850,
     offset: 0
   });
 
